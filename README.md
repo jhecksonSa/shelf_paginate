@@ -1,12 +1,12 @@
 ## shelf_paginate
 
-Create a paging based on a json array
+Create a paging based on a json array\
 Inspirated by express-paginate and horse-paginate
 
 ## Usage
 
-On get the HEADER must have x-paginate = true
-limit = x - registration limit per page
+On get the HEADER must have x-paginate = true\
+limit = x - registration limit per page\
 page = x - current page that shelf_paginate will return
  
 
@@ -68,8 +68,8 @@ Response _paginateRequest(Request request) =>
 
 ## Project credit
 
-[Create A pagination middleware with Node.js](https://medium.com/learnfactory-nigeria/create-a-pagination-middleware-with-node-js-fe4ec5dca80f)
-[express_paginate](https://github.com/expressjs/express-paginate)
+[Create A pagination middleware with Node.js](https://medium.com/learnfactory-nigeria/create-a-pagination-middleware-with-node-js-fe4ec5dca80f)\
+[express_paginate](https://github.com/expressjs/express-paginate)\
 [horse_paginate](https://github.com/academiadocodigo/Horse-Paginate)
 
 
