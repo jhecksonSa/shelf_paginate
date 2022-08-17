@@ -31,7 +31,7 @@ void main() async {
 }
 
 Response _paginateRequest(Request request) =>
-      return Response.ok([
+      return Response.ok(jsonEncode([
         {
           "id": 1,
           "name": "Messi",
@@ -62,7 +62,7 @@ Response _paginateRequest(Request request) =>
           "name": "Pogba",
           "club": "Juventus",          
         }
-      ]);
+      ]));
     });
 ```
 
